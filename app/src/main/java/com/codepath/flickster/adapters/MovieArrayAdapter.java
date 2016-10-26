@@ -84,9 +84,9 @@ public class MovieArrayAdapter extends ArrayAdapter<Movie> {
                 lessPopularMovieHolder.tvOverview.setText(movie.getOverview());
                 orientation = getContext().getResources().getConfiguration().orientation;
                 if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-                    Picasso.with(getContext()).load(movie.getPosterPath()).transform(new RoundedCornersTransformation(8, 8)).placeholder(R.drawable.placehoder_poster).into(lessPopularMovieHolder.ivImage);
+                    Picasso.with(getContext()).load(movie.getPosterPath()).transform(new RoundedCornersTransformation(10, 10)).placeholder(R.drawable.placehoder_poster).into(lessPopularMovieHolder.ivImage);
                 } else if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
-                    Picasso.with(getContext()).load(movie.getPosterPath()).transform(new RoundedCornersTransformation(8, 8)).placeholder(R.drawable.placehoder_poster).into(lessPopularMovieHolder.ivImage);
+                    Picasso.with(getContext()).load(movie.getPosterPath()).transform(new RoundedCornersTransformation(10, 10)).placeholder(R.drawable.placehoder_poster).into(lessPopularMovieHolder.ivImage);
                 }
                 //return the view
                 return convertView;

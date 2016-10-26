@@ -18,8 +18,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:maxWidth="250dp"
-        android:maxHeight="250dp" />
+        android:layout_margin="6dp"
+        android:minWidth="250dp"
+        android:minHeight="250dp" />
 
     <TextView
         tools:text="Movie Overview"
@@ -29,23 +30,24 @@
         android:textSize="16sp"
         android:lines="5"
         android:layout_below="@+id/tvTitle"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignLeft="@+id/tvTitle"
         android:layout_alignStart="@+id/tvTitle"
-        android:layout_alignBottom="@+id/ivMovieImage" />
+        android:layout_alignBottom="@+id/ivMovieImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         tools:text="Movie Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="17dp"
-        android:layout_marginStart="17dp"
         android:id="@+id/tvTitle"
         android:textSize="24sp"
         android:textStyle="normal|bold"
+        android:fontFamily="sans-serif"
+        android:layout_alignTop="@+id/ivMovieImage"
         android:layout_toRightOf="@+id/ivMovieImage"
         android:layout_toEndOf="@+id/ivMovieImage"
-        android:fontFamily="sans-serif" />
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
 
 </RelativeLayout>
