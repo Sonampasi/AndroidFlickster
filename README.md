@@ -33,13 +33,13 @@ The following **bonus** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] Apply swipeRefreshLayout for populating popular movies in the listview.
+* [x] Apply swipeRefreshLayout for populating popular movies in the listview.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/PczTw5L.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/0H2C4Gn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
