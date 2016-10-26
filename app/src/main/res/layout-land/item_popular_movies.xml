@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/ivMovieFullImage"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/placehoder_backdrop"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        tools:ignore="ContentDescription"
+        android:layout_margin="6dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_play_circle_outline_white_48dp"
+        android:id="@+id/ivPlayIcon"
+        android:layout_alignTop="@+id/ivMovieFullImage"
+        android:layout_alignBottom="@id/ivMovieFullImage"
+        android:layout_alignLeft="@+id/ivMovieFullImage"
+        android:layout_alignRight="@id/ivMovieFullImage"
+        android:scaleType="center"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+</RelativeLayout>
