@@ -33,7 +33,7 @@ The following **bonus** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] Apply swipeRefreshLayout for populating popular movies in the listview.
 
 ## Video Walkthrough
 
@@ -43,7 +43,9 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+## Notes
 
+Describe any challenges encountered while building the app.
 
 ## Open-source libraries used
 
